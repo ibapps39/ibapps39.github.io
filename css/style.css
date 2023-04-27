@@ -1,35 +1,115 @@
 body {
-    background-color: black;
-    color: green;
-  }
-  
-  h1, h2, h3 {
-    color: white;
-  }
-  
-  a {
-    color: green;
-    text-decoration: none;
-  }
-  
-  a:hover {
-    color: lightgreen;
-  }
-  
-  ul {
-    list-style-type: none;
-  }
-  
-  li {
-    margin-bottom: 10px;
-  }
-  
-  p {
-    margin-bottom: 10px;
-  }
-  
-  footer {
-    background-color: darkgreen;
-    color: white;
-  }
-  
+  background-color: black;
+  color: green;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+}
+header, nav {
+  text-align: center;
+}
+
+
+h1, h2, h3 {
+  color: white;
+  /* font-family: Arial, sans-serif; */
+  font-family: 'For The Glory of Helghan Regular', sans-serif;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 1.2;
+}
+
+a {
+  color: green;
+  text-decoration: none;
+}
+
+a:hover {
+  color: lightgreen;
+  text-decoration: underline;
+}
+
+ul {
+  text-align: center;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+p {
+  margin-bottom: 10px;
+}
+p.helghan {
+  font-family: 'For The Glory of Helghan Regular', sans-serif;
+}
+
+footer {
+  background-color: darkgreen;
+  color: white;
+  padding: 10px;
+  text-align: center;
+}
+
+.container {
+  width: 960px;
+  margin: 0 auto;
+}
+
+.header {
+  background-color: green;
+  height: 100px;
+  padding: 20px;
+}
+
+.header h1 {
+  float: left;
+  font-size: 48px;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+.header ul {
+  float: right;
+}
+
+.header ul li {
+  display: inline;
+  margin-left: 10px;
+}
+
+.main {
+  background-color: white;
+  padding: 20px;
+}
+
+.main h2 {
+  margin-top: 0;
+  font-size: 36px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.main p {
+  line-height: 1.5;
+}
+
+.footer {
+  background-color: darkgreen;
+  color: white;
+  padding: 10px;
+  text-align: center;
+}
+
+.footer a {
+  color: white;
+  text-decoration: none;
+}
+
+.footer a:hover {
+  color: lightgreen;
+  text-decoration: underline;
+}
