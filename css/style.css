@@ -1,0 +1,35 @@
+body {
+    background-color: black;
+    color: green;
+  }
+  
+  h1, h2, h3 {
+    color: white;
+  }
+  
+  a {
+    color: green;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: lightgreen;
+  }
+  
+  ul {
+    list-style-type: none;
+  }
+  
+  li {
+    margin-bottom: 10px;
+  }
+  
+  p {
+    margin-bottom: 10px;
+  }
+  
+  footer {
+    background-color: darkgreen;
+    color: white;
+  }
+  
