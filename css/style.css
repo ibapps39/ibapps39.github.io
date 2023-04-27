@@ -1,7 +1,7 @@
 body {
+  font-family: Roboto;
   background-color: black;
   color: green;
-  font-family: Arial, sans-serif;
   font-size: 16px;
   line-height: 1.5;
 }
@@ -12,8 +12,7 @@ header, nav {
 
 h1, h2, h3 {
   color: white;
-  /* font-family: Arial, sans-serif; */
-  font-family: 'For The Glory of Helghan Regular', sans-serif;
+  font-family: Roboto;
   font-weight: bold;
   font-size: 24px;
   line-height: 1.2;
@@ -43,9 +42,6 @@ li {
 p {
   margin-bottom: 10px;
 }
-p.helghan {
-  font-family: 'For The Glory of Helghan Regular', sans-serif;
-}
 
 footer {
   background-color: darkgreen;
@@ -70,6 +66,7 @@ footer {
   font-size: 48px;
   font-weight: 900;
   text-transform: uppercase;
+  font-family: 'Bebas Neue', sans-serif;
 }
 
 .header ul {
@@ -91,6 +88,7 @@ footer {
   font-size: 36px;
   font-weight: 700;
   text-transform: uppercase;
+  font-family: 'Bebas Neue', sans-serif;
 }
 
 .main p {
@@ -112,4 +110,63 @@ footer {
 .footer a:hover {
   color: lightgreen;
   text-decoration: underline;
+}
+
+h1 {
+  font-family: 'Bebas Neue', sans-serif;
+}
+
+h2 {
+  font-family: 'Bebas Neue', sans-serif;
+}
+
+h3 {
+  font-family: Roboto;
+}
+
+
+/* Added some white space around the text and images */
+
+body {
+  padding: 20px;
+}
+
+img {
+  margin: 10px auto;
+}
+
+
+/* Added a call to action */
+
+.main .call-to-action {
+  text-align: center;
+}
+
+.main .call-to-action a {
+  display: block;
+  background-color: green;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 10px 20px;
+  text-decoration: none;
+  font-family: 'Bebas Neue', sans-serif;
+}
+
+.main .call-to-action a:hover {
+  background-color: lightgreen;
+}
+
+
+/* Changed the Project Titles to use Bebas Neue */
+
+.project-title {
+  font-family: 'Bebas Neue', sans-serif;
+}
+
+/* Changed the Projects to be horizontally aligned/stacked */
+ul.project-list li {
+  display: inline-block;
+  width: 200px;
+  margin: 0 10px;
 }
